@@ -60,14 +60,14 @@ mdui 专门为 VS Code 和 WebStorm 进行了优化，在这些 IDE 中可以获
 
 mdui 对 VS Code 和 WebStorm 的支持存在一些差异。以下表格列出了详细的差异：
 
-| 具有代码自动完成及悬浮提示的位置         | VS Code                                                                | WebStorm                                                                                                  |
-| ---------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| HTML 标签名                              | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
-| HTML 标签中的属性名                      | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
-| HTML 标签中属性值的枚举值                | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>（不支持显示枚举值的注释）          |
-| HTML 标签中的事件名                      |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
-| HTML 中 slot 的 `name` 属性值            |                                                                        |                                                                                                           |
-| CSS 中 `::part()` 选择器的 `part` 属性名 |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>（需要 WebStorm 2023.2 及以上版本） |
-| CSS 中组件内的 CSS 自定义属性名          |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
-| CSS 中的全局 CSS 自定义属性名            | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
-| CSS 中的全局 class 名                    |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                                    |
+| 具有代码自动完成及悬浮提示的位置         | VS Code                                                                | WebStorm                                                                                         |
+| ---------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| HTML 标签名                              | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| HTML 标签中的属性名                      | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| HTML 标签中属性值的枚举值                | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>（不支持显示枚举值的注释） |
+| HTML 标签中的事件名                      |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| HTML 中 slot 的 `name` 属性值            |                                                                        |                                                                                                  |
+| CSS 中 `::part()` 选择器的 `part` 属性名 |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| CSS 中组件内的 CSS 自定义属性名          |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| CSS 中的全局 CSS 自定义属性名            | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon> | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
+| CSS 中的全局 class 名                    |                                                                        | <mdui-icon name="check--rounded" class="ide-support-icon"></mdui-icon>                           |
